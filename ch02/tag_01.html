@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <style>
+            .ul li {display: inline;}
+        </style>
+    </head>
+    <body>
+        <!-- 해딩 태그 h1 ~ h6 -->
+        <h1>제목1</h1>
+        <h2>제목2</h2>
+        <h3>제목3</h3>
+        <h4>제목4</h4>
+        <h5>제목5</h5>
+        <h6>제목6</h6>
+
+        <!-- 단락태그 p div태그와 비슷-->
+        <p>단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그</p>
+        <div>단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락태그단락</div>
+
+        <!-- 내려쓰기 -->
+        안녕<br/>
+        안녕<br/>
+
+        <!-- 줄긋기 -->
+        <hr/>
+
+        <!-- 글자를 굵게 표시하기 -->
+        <b>글자</b>
+
+        <!-- 목록태그 ul(리스트), ol(숫자) -->
+        <ul>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ul>
+        <ul class="ul">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ul>
+        <ol>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ol>
+        
+        <!-- 표를 만드는 태그 -->
+        <table border="1">
+            <tr>
+                <td>번호</td>
+                <td>제목</td>
+                <td>작성자</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>제목1</td>
+                <td>작성자1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>제목2</td>
+                <td>작성자2</td>
+            </tr>
+        </table>
+        <br /><br />
+        <!-- colspan : 컬럼 합침, rowspan : 행 합침 -->
+        <h1>특색 있는 숙소와 즐길 거리를 예약하세요.</h1>
+        <table border="1">
+            <tr>
+                <th colspan="2">목적지</th>
+            </tr>
+            <tr>
+                <td colspan="2">모든 위치</td>
+            </tr>
+            <tr>
+                <th>체크인</th>
+                <th>체크아웃</th>
+            </tr>
+            <tr>
+                <td>년도-월-일</td>
+                <td>년도-월-일</td>
+            </tr>
+            <tr>
+                <th colspan="2">인원</th>
+            </tr>
+            <tr>
+                <td colspan="2">인원</td>
+            </tr>
+        </table>
+        <br/><br/><br/>
+        <h1>colspan, rowspan 예제</h1>
+        <table border="1">
+            <tr>
+                <th>방이름</th>
+                <th>대상</th>
+                <th>크기</th>
+                <th>가격</th>
+            </tr>
+            <tr>
+                <th>유채방</th>
+                <td>여성 도미토리</td>
+                <td rowspan="3">4인실</td>
+                <td rowspan="4">1인 20,000원</td>
+            </tr>
+            <tr>
+                <th rowspan="2">동백방</th>
+                <td>동성 도미토리</td>
+            </tr>
+            <tr>
+                <td>가족 1팀</td>
+            </tr>
+            <tr>
+                <th>천해향방</th>
+                <td>-</td>
+                <td>2인실</td>
+            </tr>
+            <tr>
+                <th colspan="4">바깥채 전체를 렌트합니다</th>
+            </tr>
+        </table>
+    </body>
+    </html>
