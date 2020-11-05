@@ -1,0 +1,26 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+
+.header {height: 100px;position: fixed;display: flex;justify-content: space-between;align-items: center;width: 100%;z-index: 1;}
+.header .header__title {width: 150px;text-align: center;font-weight: 900;}
+.header .header__list {display: flex;}
+.header .header__list .header__item {list-style: none;}
+.header .header__list .header__item:not(:last-child) {margin-right: 20px;}
+.header .header__btn {padding-right: 40px; }
+.header .header__btn button {background-color: transparent;border:0; outline: 0;color:#777;cursor: pointer;}
+.header .header__btn button i {font-size: 20px;}
+.header .header__btn span {color:#777;}
+
+.main {height: 100vh;display: flex;}
+.main .area__1 {background: url('../images/vacation.jpg')no-repeat center;background-size: cover ;width: 50%;height: 100%; }
+
+.main .area__2 {width: 50%;height: 100%;background-color: rgb(248, 235, 234);padding-top:100px;position: relative;display: flex;justify-content: center;}
+.main .area__2 h1 {position: absolute;top:22%;font-size: 90px;}
+.main .area__2 .footer {position: absolute;bottom: 0;background-color: #fff;width: 100%;height: 120px;display: flex;justify-content: space-between;align-items: center;padding:0 30px;}
+.main .area__2 .footer .footer__controller button {background-color: transparent;border: 0;outline: 0;cursor: pointer;}
+.main .area__2 .footer .footer__controller button:first-child {margin-right: 10px;}
+.main .area__2 .footer .footer__controller button i {font-size: 25px;color:#666;}
+.main .area__2 .footer .footer__social {display: flex;}
+a {text-decoration: none;}
+.main .area__2 .footer .footer__social a {display: flex;align-items: center;justify-content: center;width: 25px;height: 25px;background-color: rgb(102, 102, 102);border-radius: 50%;}
+.main .area__2 .footer .footer__social a:not(:last-child) {margin-right: 10px;}
+.main .area__2 .footer .footer__social a i {color: #fff;}
