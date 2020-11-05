@@ -1,0 +1,22 @@
+* {margin:0; padding: 0; box-sizing: border-box;}
+.container {height: 100vh;}
+.header {height: 100px;display: flex;align-items: center;}
+.header .header__icon {width: 100px; height: 100px;display: flex;justify-content: center;align-items: center;background-color: rgb(53, 61, 63);}
+.header .header__icon i {font-size: 30px;color:#fff;}
+.header .header__title {padding-left: 20px;}
+
+.main {height: calc(100% - 100px);display: flex;}
+.main .area__1 {width: 40%;position: relative;}
+.main .area__1 h1 {font-size: 150px;font-weight: 900;color:#333;left:40%;width: 800px;top:25%;}
+.main .area__1 p, h1 {color:#888; position: absolute;left:20%;}
+.main .area__1 p:nth-child(1) { top:10%;}
+.main .area__1 p:nth-child(3) { top:55%;}
+.main .area__1 p:nth-child(4) {position: absolute;bottom: 110px;}
+
+
+
+.main .area__2{width:60%;background: url('../images/tour.jpg');background-position: center;position: relative;z-index: -1;}
+.main .area__2 .paging {position: absolute;bottom: 0;; background-color: #fff;width: 200px;height: 90px;display: flex;align-items: center;justify-content: center;}
+.main .area__2 .paging i:first-child {margin-right: 20px;}
+.main .area__2 .paging i:last-child {margin-left: 20px;}
+
