@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            * {margin: 0;padding: 0;box-sizing: border-box;}
+            header {background-color: pink;height: 100px;display: flex;align-items: center;justify-content: center;color:#fff;font-size: 40px;font-weight: 900;}
+            ul {display: flex;justify-content: space-around;flex-wrap: wrap;}
+            li {list-style: none;width: 200px;text-align: center;}
+            nav a {text-decoration: none; color: #fff;padding: 20px 0;display: inline-block;font-size: 20px;font-weight: 700;}
+            nav a:hover {background-color:rgb(207, 148, 38)}
+            nav {background-color: orange;}
+            .submenu {position: relative;}
+            .dropdown {position: absolute; display: none;}
+            .submenu > a:hover + .dropdown{ display: block;}
+        </style>
+    </head>
+    <body>
+        <header>
+            COS
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">HTML</a> </li>
+                <li><a href="#">CSS</a> </li>
+                <li class="submenu">
+                    <a href="#">JaveScript</a>
+                    <div class="dropdown">
+                        <div>Link1</div>
+                        <div>Link2</div>
+                        <div>Link3</div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
