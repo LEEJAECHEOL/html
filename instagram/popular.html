@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Instagram</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/insta.svg">
     <!-- Style -->
-    <link rel="stylesheet" href="css/message.css">
+    <link rel="stylesheet" href="css/popular.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -31,50 +35,85 @@
             </nav>
         </div>
     </header>
-    <main class="main">
-        <section class="message__container">
-            <article class="message">
-                <div class="message__friendlist">
-                    <div class="my__id">
-                        <div class="id__btn">
-                            <button>myAccount <i class="fas fa-chevron-down"></i></button>
-                        </div>
-                        <div class="write__btn">
-                            <button><i class="far fa-edit"></i></button>
-                        </div>
-                    </div>
-                    <div class="friend__id">
-                        <ul class="friend__id__list">
-                            <li>
-                                <div class="friend__profile"><img src="images/profile.jpeg" alt=""></div>
-                                <div class="friend__state">
-                                    <p>이름</p>
-                                    <p>상태메세지</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="friend__profile"><img src="images/profile.jpeg" alt=""></div>
-                                <div class="friend__state">
-                                    <p>이름</p>
-                                    <p>상태메세지</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+
+    <main class="popular">
+        <div class="container">
+            <div class="popular-gallery popular-top">
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                    <i class="fas fa-images"></i>
                 </div>
-                <div class="message__view">
-                    <div class="message__list">
-                        <div class="start">
-                            <div><i class="far fa-paper-plane"></i></div>
-                            <h2>내 메시지</h2>
-                            <p>친구나 그룹에 비공개 사진과 메시지를 보내보세요.</p>
-                            <button>메세지 보내기</button>
-                        </div>
-                    </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
                 </div>
-            </article>
-        </section>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+            </div>
+            <div class="popular-gallery">
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                    <i class="fas fa-images"></i>
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                    <i class="fas fa-images"></i>
+                </div>
+            </div>
+            <div class="popular-gallery">
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                    <i class="fas fa-images"></i>
+                </div>
+            </div>
+            <div class="popular-gallery">
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="p-img-box">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+            </div>
+        </div>
     </main>
+
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#a">소개</a></li>
+                <li><a href="#a">블로그</a></li>
+                <li><a href="#a">채용 정보</a></li>
+                <li><a href="#a">도움말</a></li>
+                <li><a href="#a">API</a></li>
+                <li><a href="#a">개인정보처리방침</a></li>
+                <li><a href="#a">약관</a></li>
+                <li><a href="#a">인기 계정</a></li>
+                <li><a href="#a">해시태그</a></li>
+                <li><a href="#a">위치</a></li>
+            </ul>
+            <div class="copy">
+                <select name="" id="">
+                    <option value="">한국어</option>
+                </select>
+                <p>© 2020 Instagram from Facebook</p>
+            </div>
+        </div>
+    </footer>
+
     <div class="modal-heart">
         <div class="follow">
             <div class="follow__item">
@@ -119,6 +158,8 @@
             </div>
         </div>
     </div>
+    <script defer src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="js/follow.js"></script>
 </body>
 
